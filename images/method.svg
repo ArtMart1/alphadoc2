@@ -1,0 +1,33 @@
+<svg width="326" height="246" viewBox="0 0 326 246" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_b_2063_26189)">
+<path d="M284.6 3C305.808 3 323 20.1923 323 41.4L323 228.6C323 236.553 316.553 243 308.6 243L17.4 243C9.44707 243 2.99998 236.553 2.99998 228.6L3 17.4C3 9.44709 9.44711 2.99999 17.4 2.99999L284.6 3Z" fill="url(#paint0_radial_2063_26189)"/>
+<path d="M324.05 41.4C324.05 19.6124 306.388 1.95 284.6 1.95L17.4 1.94999C8.86722 1.94999 1.95001 8.86719 1.95001 17.4L1.95 228.6C1.95 237.133 8.86717 244.05 17.4 244.05L308.6 244.05C317.133 244.05 324.05 237.133 324.05 228.6L324.05 41.4Z" stroke="url(#paint1_radial_2063_26189)" stroke-width="2.1"/>
+<path d="M324.05 41.4C324.05 19.6124 306.388 1.95 284.6 1.95L17.4 1.94999C8.86722 1.94999 1.95001 8.86719 1.95001 17.4L1.95 228.6C1.95 237.133 8.86717 244.05 17.4 244.05L308.6 244.05C317.133 244.05 324.05 237.133 324.05 228.6L324.05 41.4Z" stroke="url(#paint2_radial_2063_26189)" stroke-width="2.1"/>
+<path d="M324.05 41.4C324.05 19.6124 306.388 1.95 284.6 1.95L17.4 1.94999C8.86722 1.94999 1.95001 8.86719 1.95001 17.4L1.95 228.6C1.95 237.133 8.86717 244.05 17.4 244.05L308.6 244.05C317.133 244.05 324.05 237.133 324.05 228.6L324.05 41.4Z" stroke="url(#paint3_linear_2063_26189)" stroke-width="2.1"/>
+</g>
+<path d="M156.937 218.891L147.912 214.92V213.856L156.937 209.353V211.044L150.021 214.312L156.937 217.2V218.891ZM163.364 207.7V221H161.92V207.947L162.414 208.631L158.975 211.12V209.695L161.73 207.7H163.364ZM165.947 217.2L172.863 214.312L165.947 211.044V209.353L174.972 213.856V214.92L165.947 218.891V217.2Z" fill="black"/>
+<defs>
+<filter id="filter0_b_2063_26189" x="-24.3016" y="-24.3001" width="374.603" height="294.6" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feGaussianBlur in="BackgroundImageFix" stdDeviation="12.6"/>
+<feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_2063_26189"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_2063_26189" result="shape"/>
+</filter>
+<radialGradient id="paint0_radial_2063_26189" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(323 3) rotate(143.13) scale(400 266.818)">
+<stop stop-color="white" stop-opacity="0.4"/>
+<stop offset="1" stop-color="white" stop-opacity="0"/>
+</radialGradient>
+<radialGradient id="paint1_radial_2063_26189" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(163 123) rotate(-180) scale(160 193.903)">
+<stop stop-color="#8C4424"/>
+<stop offset="1" stop-color="#8C4424" stop-opacity="0"/>
+</radialGradient>
+<radialGradient id="paint2_radial_2063_26189" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(163 123) rotate(-180) scale(160 4.86298)">
+<stop stop-color="#00FF1A"/>
+<stop offset="1" stop-color="#A3FFA2"/>
+</radialGradient>
+<linearGradient id="paint3_linear_2063_26189" x1="323" y1="123" x2="2.99999" y2="123" gradientUnits="userSpaceOnUse">
+<stop stop-color="white"/>
+<stop offset="1" stop-color="white" stop-opacity="0"/>
+</linearGradient>
+</defs>
+</svg>

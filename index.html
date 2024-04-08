@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Альфа-док</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/general.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/icons.css">
+  
+</head>
+<body>
+  <video class="video1" autoplay loop muted>
+    <source src="images/bg.mp4" type="video/mp4">
+  </video>
+  <div id="fullpage">
+    <div class="section section1">
+      
+      
+      <div class="rainbow">
+        <img src="images/rainbow.svg" alt="" class="rainbow_img">
+      </div>  
+      <div class="pyatna">
+        
+        
+        <img src="images/Pyatno.svg" alt="" class="pyatno">
+       </div>  
+     
+      <!-- <header class="header">
+        <div class="container_head">
+          <div class="header_left">
+            <a href="">
+              <div class="union_logo">
+                <img src="images/union_logo.svg" alt="">
+              </div>
+              <div class="logo">
+                <a href="" class="logo_img">
+                  <img src="images/logo.svg" alt="">
+                </a>    
+              </div>
+            </a>
+            <a href="">
+              <div class="oval">
+                <div class="circle">
+                  <div class="moon">
+                    <img src="images/moon.svg" alt="">
+                  </div>
+                </div>
+              </div> 
+            </a>    
+          </div>  
+          <div class="header_right"> 
+            <a href="">        
+              <div class="aplication">
+                <img src="images/ellipse.svg" alt="" class="menu_item aplication_img">
+                <p href="" class="menu_item aplication_item">
+                    Заявка
+                </p>
+                <div class="aplication_box"> 
+                  
+                </div>                    
+              </div> 
+            </a>  
+            <a href="" class="menu_item">        
+              <div class="tg menu">              
+                  <img src="images/tg.svg" alt="" class="tg_item ">
+            </div>
+            </a>
+            <a href="">
+              <div class="phone menu">
+                <p href="tel:+74956618199" class="phone_item menu_item">+7 495 661-81-99</p>
+              </div>
+            </a>
+            <a href="">  
+              <div class="email menu">
+                <p href="mailto:info@alpha-doc.ru" class="email_item menu_item">info@alpha-doc.ru</p>
+              </div>
+            </a>
+              <div class="union_menu">
+                <img src="images/union_menu.svg" alt="">
+              </div>
+          </div>
+        </div>
+      </header> -->
+      <header class="header">
+        <div class="header_left">
+            <svg class="header_left_bg" id="header_left" opacity="0.36" width="259" height="50" xmlns="http://www.w3.org/2000/svg">
+                <path id="connector" fill="#f4f4f4"
+                      d="m 179.5 15 l 6 0 c 0 7 7 7 7 0 l 8 0 l 0 15 l -8 0 c 0 -6 -7 -6 -7 0 l -6 0 l 0 -15"
+                ></path>
+                <path id="connector2" fill="#f4f4f4"
+                      d="m 168 15 l 6 0 c 0 7 7 7 7 0 l 8 0 l 0 15 l -8 0 c 0 -6 -7 -6 -7 0 l -6 0 l 0 -15"
+                ></path>
+                <path id="connector3" fill="#f4f4f4"
+                      d="m 146 15 l 6 0 c 0 7 7 7 7 0 l 8 0 l 0 15 l -8 0 c 0 -6 -7 -6 -7 0 l -6 0 l 0 -15"
+                ></path>
+                <path id="connector4" fill="#f4f4f4"
+                      d="m 165 15 l 6 0 c 0 7 7 7 7 0 l 8 0 l 0 15 l -8 0 c 0 -6 -7 -6 -7 0 l -6 0 l 0 -15"
+                ></path>
+                <path id="connector5" fill="#f4f4f4"
+                      d="m 208 20 l 6 0 c 0 7 7 7 7 0 l 8 0 l 0 15 l -8 0 c 0 -6 -7 -6 -7 0 l -6 0 l 0 -15"
+                ></path>
+                <path id="connector_fixed" fill="#f4f4f4"
+                      d="m 78 15 l 6 0 c 0 7 7 7 7 0 l 8 0 l 0 15 l -8 0 c 0 -6 -7 -6 -7 0 l -6 0 l 0 -15"
+                ></path>
+                <path id="connector_fixed2" fill="#f4f4f4"
+                      d="m 105 20 l 6 0 c 0 7 7 7 7 0 l 8 0 l 0 15 l -8 0 c 0 -6 -7 -6 -7 0 l -6 0 l 0 -15"
+                ></path>
+                <style>
+                    #connector, #connector_fixed {
+                        filter: drop-shadow(0px 6px 22px rgba(0, 0, 0, 0.05));
+                    }
+                    #connector_fixed {
+                        display: none;
+                    }
+                </style>
+            </svg>
+            <div onclick="sidebarScrollToBlock('intro')" class="header_logo">
+                <img src="images/logo.svg" alt="">
+                <h5>АЛЬФАДОК</h5>
+            </div>
+            <div class="header_theme">
+                <input name="theme" type="checkbox" class="checkbox" id="checkbox"/>
+                <label class="header_theme_label" for="checkbox">Тема</label>
+            </div>
+        </div>
+        <div class="header_right">
+            <div class="btn_group">
+                <button onclick="sidebarScrollToBlock('contacts')" class="btn_transparent"><i class="icon-circle"></i>Заявка</button>
+                <img class="btn_ball" src="assets/images/bg/yellow-ball-btn.svg" alt="">
+            </div>
+            <div class="header_contacts">
+                <svg class="header_right_bg" id="header_left" opacity="0.36" width="465" height="50" xmlns="http://www.w3.org/2000/svg">
+                    <path id="right_connector" fill="#f4f4f4"
+                          d="m 49.5 13 c 0 7 7 7 7 0 v 10 l 0 8 c 0 -7 -7 -7 -7 0"
+                    ></path>
+                    <path id="right_connector2" fill="#f4f4f4"
+                          d="m 223.5 15 l 6 0 c 0 7 7 7 7 0 l 8 0 l 0 15 l -8 0 c 0 -6 -7 -6 -7 0 l -6 0 l 0 -15"
+                    ></path>
+                    <path id="right_connector3" fill="#f4f4f4"
+                          d="m 53.5 18 c 0 7 7 7 7 0 v 10 l 0 8 c 0 -7 -7 -7 -7 0"
+                    ></path>
+                    <path id="right_connector4" fill="#f4f4f4"
+                          d="m 259 18 l 6 0 c 0 7 7 7 7 0 l 8 0 l 0 15 l -8 0 c 0 -6 -7 -6 -7 0 l -6 0 l 0 -15"
+                    ></path>
+                    <path id="right_connector5" fill="#f4f4f4"
+                          d="m 208 15 l 6 0 c 0 7 7 7 7 0 l 8 0 l 0 15 l -8 0 c 0 -6 -7 -6 -7 0 l -6 0 l 0 -15"
+                    ></path>
+                    <path id="right_connector6" fill="#f4f4f4"
+                          d="m 198 15 l 6 0 c 0 7 7 7 7 0 l 8 0 l 0 15 l -8 0 c 0 -6 -7 -6 -7 0 l -6 0 l 0 -15"
+                    ></path>
+                    <path id="right_connector7" fill="#f4f4f4"
+                          d="m 53.5 13 c 0 7 7 7 7 0 v 10 l 0 8 c 0 -7 -7 -7 -7 0"
+                    ></path>
+                    <path id="right_connector8" fill="#f4f4f4"
+                          d="m 233.5 15 l 6 0 c 0 7 7 7 7 0 l 8 0 l 0 15 l -8 0 c 0 -6 -7 -6 -7 0 l -6 0 l 0 -15"
+                    ></path>
+                    <path id="right_connector9" fill="#f4f4f4"
+                          d="m 194 15 l 6 0 c 0 7 7 7 7 0 l 8 0 l 0 15 l -8 0 c 0 -6 -7 -6 -7 0 l -6 0 l 0 -15"
+                    ></path>
+                    <path id="right_connector10" fill="#f4f4f4"
+                          d="m 35.5 13 l 6 0 c 0 7 7 7 7 0 l 8 0 l 0 15 l -8 0 c 0 -6 -7 -6 -7 0 l -6 0 l 0 -15"
+                    ></path>
+                    <path id="right_connector11" fill="#f4f4f4"
+                          d="m 178 13 l 6 0 c 0 7 7 7 7 0 l 8 0 l 0 15 l -8 0 c 0 -6 -7 -6 -7 0 l -6 0 l 0 -15"
+                    ></path>
+                    <style>
+                        #right_connector, #right_connector2, #right_connector3, #right_connector4, #right_connector5, #right_connector6 {
+                            filter: drop-shadow(0px 6px 22px rgba(0, 0, 0, 0.05));
+                        }
+                    </style>
+                </svg>
+                <div class="header_contacts_wrap">
+                    <a class="header_contacts_btn" href="https://t.me/alpha_doc_chat" target="_blank"><i class="icon-telegram"></i></a>
+                </div>
+                <div class="header_contacts_wrap">
+                    <a class="header_phone" href="tel:+74956618199">+7 495 661-81-99</a>
+                </div>
+                <div class="header_contacts_wrap">
+                    <a class="header_mail" href="mailto:info@alpha-doc.ru">info@alpha-doc.ru</a>
+                </div>
+            </div>
+        </div>
+    </header>
+      <main class="main">
+        <div class="upper_content">
+          <div class="main_text">
+            <h1 class= "content">
+              Альфа строй-платформа собственной <br>
+               разработки для строительных компаний   
+            </h1>
+            <h1 class="content_mob">
+              Альфа строй- <br>
+              платформа <br>
+              для строительных <br>
+              компаний
+            </h1>
+            
+          </div>
+          <div class="buttons">
+            <a href="" class="web">
+              <img src="images/web.svg" alt="">
+            </a>
+            <a href="" class="oneC">
+              <img src="images/1С.svg" alt="" class="oneC-d">
+              <img src="images/1C-mob.svg" alt="" class="oneC-m">
+            </a>
+            <a href="" class="integration">
+              <img src="images/integration.svg  " alt="" class="integr-img-mob">
+              <img src="images/integrationAPI.svg" alt="" class="integr-img-desk">
+            </a>
+          </div>
+          <div class="left_btm_m">
+            Основные функции
+          </div>
+
+        </div>
+        <div class="bottom_content">
+          <div class="left_bottom">
+            <h1 class="shrink_safari">Основные<br>функции</h1>
+            <div class="left_bottom_img">
+              <img src="images/integralScaffold.svg" alt="">
+            </div>  
+          </div>
+          <div class="right_bottom">
+            <a href="">
+              <div class="registration_box card_box">
+                <h2  class="registration bottom_item">
+                  Заявки  <br> на материалы <br> работы
+                </h2>
+                <img src="images/registration.svg" alt="">
+                
+              </div>
+            </a>
+            <a href="">
+              <div class="enter_box card_box">
+                <h2 href="" class="enter bottom_item">
+                  Контроль лимитов
+                </h2>
+                <img src="images/enter.svg" alt="">
+                
+              </div>
+            </a>
+            <a href="">
+              <div class="control_box card_box">
+                <h2 href="" class="control bottom_item">
+                  Складской учет
+                </h2>
+                <img src="images/control.svg" alt="">
+                
+              </div>
+            </a>  
+            <a href="">  
+              <div class="creation_box card_box"> 
+                <h2 href="" class="creation bottom_item">
+                  Тендеры на <br> поставки 
+                </h2>
+                <img src="images/creation.svg" alt="">
+                <p>проектов</p>
+              </div> 
+            </a> 
+            <a href="">
+              <div class="use_box card_box"> 
+                <h2 href="" class="use bottom_item">
+                  Создание, <br> согласование <br> и подписание              
+                </h2>
+                <img src="images/use.svg" alt="">
+              </div> 
+            </a>
+            
+            
+
+          </div>
+        </div>
+      </main> 
+      <footer class="footerp1">
+       
+        <div class="footer_inner">
+         <div class="container_footer">
+               <a href="" class="projects">
+             Работы
+           </a>
+           <a href="" class="about">
+             О нас
+           </a>
+         </div> 
+       </div>  
+     </footer>   
+      
+      
+    </div>
+    
+    
+    <div class="section section2" >
+      <div class="content_p2_mob">
+        <div class="cnt_p2_tp_mb">
+          Функционал
+        </div>
+        
+      </div>
+      <div class="content_p2">
+        <div class="buttons_p2">
+            <ul>
+              <li class="toggle-img li1 open" data-text="text1">
+                <img src="images/green_button.svg" alt="" class="green-button">
+                <img src="images/gray_button.svg" alt="" class="gray-button">
+                <p class="normal_text">Модули системы</p>
+            </li>
+            <li class="toggle-img li2" data-text="text2">
+                <img src="images/green_button_reversed.svg" alt="" class="green-button">
+                <img src="images/gray_button_reversed.svg" alt="" class="gray-button">
+                <p class="roles_of_users">Роли пользователей</p>
+            </li>
+            <li class="toggle-img li3" data-text="text3">
+                <img src="images/green_button.svg" alt="" class="green-button">
+                <img src="images/gray_button.svg" alt="" class="gray-button">
+                <p class="normal_text">Справочники системы</p>
+            </li>
+            <li class="toggle-img li4" data-text="text4">
+                <img src="images/green_button_reversed.svg" alt="" class="green-button">
+                <img src="images/gray_button_reversed.svg" alt="" class="gray-button">
+                <p class="documents">Бухгалтерские документы</p>
+            </li>
+            </ul>
+        </div>
+        <div class="functional">
+            <div class="functional_inner">
+                <h1 class="shrink_safari">Функционал</h1>
+                <img src="images/integralScaffold.svg" alt="">
+            </div>
+            <div class="all_functions all_functions_top">
+                <div id="btn1" class="toggle-btn open" data-text="text1"> Модули системы </div>
+                <div id="btn2" class="toggle-btn" data-text="text2">Роли пользователей</div>
+            </div>
+            <div class="all_functions all_functions_bottom">
+                <div id="btn3" class="toggle-btn" data-text="text3">Справочники системы</div>
+                <div id="btn4" class="toggle-btn" data-text="text4">Бухгалтерские документы</div>
+            </div>
+            <div class="text" id="text1">Прораб, Начальник участка, Сотрудник отдела ПТО, Сотрудник отдела <br>
+                снабжения, Куратор, Начальник управления, Руководитель, Утверждающий <br>
+                счета, Бухгалтер, Кладовщик, Администратор, Секретарь</div>
+            <div class="text" id="text2" style="display: none;">
+                <ul class="text2_left">
+                    <li>Прораб</li>
+                    <li>Начальник участка</li>
+                    <li>Сотрудник отдела ПТО</li>
+                    <li>Сотрудник отдела снабжения</li>
+                    <li>Куратор</li>
+                    <li>Начальник управления</li>
+                    <li>Руководитель</li>
+                    <li>Утверждающий счета</li>
+                </ul>
+                <ul class="text2_right">
+                    <li>Бухгалтер</li>
+                    <li>Кладовщик</li>
+                    <li>Администратор</li>
+                    <li>Секретарь</li>
+                </ul>
+            </div>
+            <div class="text" id="text3" style="display: none;">Система позволяет полностью автоматизировать бумажную работу <br>
+                связанную со стройкой. Вот некоторые типы документов, электронный архив <br>
+                которых ведет система: ТН, ТТН, СФ, Счета, Платежные поручения и т.д.</div>
+            <div class="text" id="text4" style="display: none;">Наименования материалов, виды работ, объекты, бригады, склады и т.д. <br>
+                Система обладает всеми нужными справочниками для обеспечения <br>
+                параллельной работы больших отделов компании.</div>
+        </div>
+    </div>
+    </div>
+    <div class="section section3">
+      <div class="top_contentp3">
+        Способы развертывания
+      </div>
+      <div class="bottom_contentp3">
+        <div class="card1p3 cardp3" >
+          
+          <p>Облачное решение <br>Полный функционал <br> по подписной модели</p>
+          <div class="numberp3"><code><3></code></div>
+          
+        </div>
+        <div class="card2p3 cardp3">
+          
+          <p>Облачное решение <br> Пилотный проект <br> Автоматизация отдела ПТО </p>
+           <div class="numberp3 number1p3"><code><1></code>
+              <div class="number_mark"></div>
+           </div>
+           
+        </div>
+        <div class="card3p3 cardp3">
+          
+          <p>Изолированное <br>
+          развертывание в контуре<br> заказчика
+        </p>
+        <div class="numberp3 number2p3"><code><2></code></div>
+        </div>
+      </div>
+      <div class="content_p4_mob">
+        <div class="content_p4_top">
+          Способы развертывания
+        </div>
+        <div class="content_p4_bot">
+          <ul>
+            <li class="method_fst">
+              <div class="method_top">
+                Облачное решение <br>
+                через портал ЭДОВ.РФ
+            </div>
+            </li>
+            <li class="method_scnd">
+              <div class="method_top">
+                Облачное решение с хранением <br>
+                 частей системы на серверах <br>
+                  клиента
+              </div>
+            </li>   
+            <li class="method_thrd">
+              <div class="method_top">
+                Изолированное развертывание <br>
+                в контуре заказчика
+              </div>
+            </li>
+          </ul>
+        </div>
+        
+      </div> 
+    </div>
+    <div class="section section4">
+      <div class="modules">
+        <div class="modules_top">
+          Основные модули системы
+        </div>
+        <div class="modules_bottom">
+          <div class="running_right">
+            <img src="images/ticker_instruments.svg" alt="" class="ticker_right">
+             <img src="images/ticker_instruments.svg" alt="" class="ticker_right">
+              
+          
+            </div>
+          
+          <div class="running_left">
+            <img src="images/ticker_instruments.svg" alt="" class="ticker_left">
+            <img src="images/ticker_instruments.svg" alt="" class="ticker_left">
+          </div>
+          
+        </div>
+      </div>
+      <div class="roles">
+        <div class="roles_top">
+          Роли пользователей системы
+        </div>
+        <div class="roles_bottom">
+          <div class="running_right">
+            <img src="images/ticker_instruments.svg" alt="" class="ticker_right">
+            <img src="images/ticker_instruments.svg" alt="" class="ticker_right">
+            
+          </div>
+          <div class="running_left">
+            <img src="images/ticker_instruments.svg" alt="" class="ticker_left">
+            <img src="images/ticker_instruments.svg" alt="" class="ticker_left">
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+    <div class="section section5">
+      <div class="pluses">
+        Плюсы использования
+      </div>
+      <div class="plus_img">
+      
+      </div>
+      <div class="running_img_left">
+        <img src="images/running_img.svg" alt="">
+        <img src="images/running_img.svg" alt="">
+      </div>
+      <div class="running_img_right">
+        <img src="images/running_img.svg" alt="">
+        <img src="images/running_img.svg" alt="">
+      </div>
+    </div>
+    <section id="contacts" class="section contacts_wrap">
+      <div class="contacts">
+          <h2>До старта-один шаг</h2>
+          <h4>Эта информация поможет нам осмыслить вашу задачу,<br>а детали мы обсудим при встрече</h4>
+          <div class="contacts_inner">
+              <div class="contacts_content">
+                  <a href="https://t.me/alpha_doc_chat" target="_blank" class="contacts_item">
+                      <div class="contacts_item_img">
+                          <img src="images/lego_man.png" alt="">
+                          <span class="contacts_item_img_dot"></span>
+                      </div>
+                      <h4 class="contacts_item_title">CEO АЛЬФА ДОК</h4>
+                      <div><h4 class="contacts_item_text text_black"><i class="icon-telegram"></i>Павел Пляцевой</h4></div>
+                      <i class="icon-arow contacts_item_arrow"></i>
+                  </a>
+                  <div class="contacts_col">
+                      <a href="mailto:pavel@alpha-doc.ru" class="contacts_item">
+                          <h4 class="contacts_item_text">Почта</h4>
+                          <h4 class="contacts_item_text">info@alpha-doc.ru</h4>
+                          <i class="icon-arow contacts_item_arrow"></i>
+                      </a>
+                      <a href="tel:+79257418139" class="contacts_item">
+                          <h4 class="contacts_item_text">Телефон</h4>
+                          <h4 class="contacts_item_text">+7 (925) 741-81-39</h4>
+                          <i class="icon-arow contacts_item_arrow"></i>
+                      </a>
+                  </div>
+              </div>
+              <div class="contacts_form">
+                  <div class="form_wrap">
+                      <div class="form_row">
+                          <input name="name" type="text" placeholder="Имя*">
+                          <input name="surname" type="text" placeholder="Фамилия*">
+                      </div>
+                      <div class="form_row">
+                          <input name="phone" type="tel" placeholder="+7 (999) 989-35-34*">
+                          <input name="email" type="email" placeholder="E-mail*">
+                      </div>
+                      <textarea name="text" placeholder="Расскажите нам о своей задаче*"></textarea>
+                      <div class="input_file_wrap">
+                          <input id="input_file" multiple="multiple" name="files" type="file" class="form_file_attach">
+                          <label for="input_file">Прикрепить файл</label>
+                          <span class="input_file_count">Файлы не выбраны</span>
+                      </div>
+                      <div class="contacts_form_message">
+                          <h3 class="bold"></h3>
+                          <h5></h5>
+                      </div>
+                  </div>
+                  <h6>Нажимая на кнопку вы соглашаетесь на обработку персональных данных</h6>
+                  <div class="btn_group">
+                      <button class="btn_transparent">Отправить</button>
+                      <img class="btn_ball" src="assets/images/bg/yellow-ball-btn.svg" alt="">
+                  </div>
+              </div>
+          </div>
+          <div class="contacts_ball_animate"></div>
+      </div>
+      <img class="contacts_ball1" src="assets/images/bg/yellow-ball-378x400.svg" alt="">
+      <img class="contacts_ball2" src="assets/images/bg/yellow-ball-223x210.svg" alt="">
+      
+  </section>
+      
+    </div>
+    
+  </div> 
+  
+    
+  <script src="js/main.js"></script>
+  
+
+ 
+  
+</body>
+</html>
