@@ -1179,6 +1179,10 @@
     background: url("../images/video-portal-poster.png") center no-repeat;
     background-size: cover;
 }
+.f2{
+    visibility: hidden;
+    
+}
 
 @media (max-width: 1430px) {
     .intro {
@@ -1988,6 +1992,21 @@
         object-fit: cover;
         height: 72%;
     }
+    .running_img_left{
+        display: none;
+    }
+    .running_img_right{
+        display: none;
+    }
+    .pluses_mob{
+        
+        flex-direction: column;
+        width: 100%;
+        margin-top: 20px;
+        align-items: center;        
+    }
+  
+    
 }
 @media (max-width: 700px) {
     .api_laptop_img_content {

@@ -137,3 +137,35 @@ var classesToStyle = ['header', 'content', 'card_box', 'projects', 'about','left
         // Делаем первую кнопку и соответствующий текст активными изначально
         activateContent(0);
     });
+    
+    function updateContainerHeight() {
+        let plusMobImg = document.getElementById('morphSvg');
+        let plusesMob = document.querySelector('.pluses_mob');
+    
+        if (plusMobImg !== null) {
+            let imageHeight = plusMobImg.offsetHeight;
+            plusesMob.style.height = imageHeight;
+        }
+    };    
+    
+updateContainerHeight();
+window.addEventListener('resize', updateContainerHeight);
+
+
+
+document.addEventListener('DOMContentLoaded', () => {
+    const toggleButton = document.getElementById('toggleButton');
+    const toggleItems = document.querySelectorAll('.toggle-item');
+
+    toggleButton.addEventListener('click', () => {
+        toggleItems.forEach(item => {
+            item.classList.toggle('show');
+        });
+
+        if (toggleButton.textContent.trim() === 'Смотреть все') {
+            toggleButton.textContent = 'Скрыть';
+        } else {
+            toggleButton.textContent = 'Смотреть все';
+        }
+    });
+});
